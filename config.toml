@@ -1,0 +1,99 @@
+baseurl             = "/" # Must end with /
+languageCode        = "en-us"
+title               = "Introduction"
+theme               = "hugo-theme-introduction"
+enforce_ssl         = "your-url.com"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+layoutdir           = "layouts"
+publishdir          = "public"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[params]
+author        = "Bhuvanchandra DV" # Full name shows on blog post pages
+firstname     = "Bhuvan" # First name shows in introduction on main page
+tagline       = "Linux user and developer since 2012"
+introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
+theme         = "dark" # Choose 'light' or 'dark'
+#theme         = "light" # Choose 'light' or 'dark'
+avatar        = "img/profile_pic1.jpg" # Path to image in static folder eg. img/avatar.png
+email         = "bhuvanchandradv@gmail.com" # Shows in contact section, or leave blank to omit
+localtime     = true # Show your current local time in contact section
+timezone      = "Asia/Kolkata" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+dateform      = "Jan 1, 2017"
+dateformfull  = "Mon Jan 1 2017 15:04:05 IST"
+cachebuster   = true # Add the current unix timestamp in query string for cache busting css assets
+description   = "Blog"
+faviconfile   = "img/fav.ico"
+highlightjs   = true # Syntax highlighting
+lang          = "en"
+footertext    = "That's all for now..." # Text to show in footer (overrides default text)
+fadein        = true # Turn on/off the fade-in effect
+
+showblog        = true # Show Blog section on home page
+showallposts    = true # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+showlatest      = true # Show latest blog post summary
+sharebuttons    = true # On post pages, show share this social buttons
+
+showprojects    = true # Show Projects section on home page
+
+# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
+project1link    = "#"
+project1img     = "img/pet-bot.jpg"
+project1title   = "Pet Bot"
+
+project2link    = "#"
+project2img     = "img/linux-quick-boot.jpg"
+project2title   = "Linux Quick Boot Demo"
+
+project3link    = "#"
+project3img     = "img/spectrum-analyzer.jpg"
+project3title   = "Spectrum Analyzer"
+
+project4link    = "#"
+project4img     = "img/smart-aquarium-controller.jpg"
+project4title   = "Smart Aquarium Controller"
+
+project5link    = "#"
+project5img     = "img/freertos-vf6xx_m4.jpg"
+project5title   = "FreeRTOS port for Colibri VF61 M4 Core"
+
+project6link    = "#"
+project6img     = "img/micropython-vf6xx_m4.jpg"
+project6title   = "MicroPython port for Colibri VF61 M4 Core"
+
+#project8link    = "#"
+#project8img     = "img/project2.jpg"
+#roject8title   = "Sample8"
+
+
+# Social icons appear in introduction and contact section. Add as many more as you like.
+# Find icon names here: http://fontawesome.io/cheatsheet/
+
+[[params.social]]
+url = "https://linkedin.com/in/bhuvanchandradv"
+icon = "linkedin"
+
+[[params.social]]
+url = "https://github.com/bhuvanchandra"
+icon = "github"
+
+[[params.social]]
+url = "https://facebook.com/bhuvanchandradv"
+icon = "facebook"
+
+[[params.social]]
+url = "https://instagram.com/bhuvanchandradv"
+icon = "instagram"
+
+[[params.social]]
+url = "https://www.strava.com/athletes/5336017"
+icon = "bicycle"
+
+[[params.social]]
+url = "https://api.whatsapp.com/send?phone=917406900063"
+icon = "whatsapp"

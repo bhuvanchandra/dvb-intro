@@ -5,41 +5,17 @@ title = "about"
 
 +++
 
-I’m interested in electronics, robotics, physics, bicycle trekking, music, drawing
-and pet-keeping. I was also a member in [Scout](http://www.bsgindia.org/) during
-my school days, we as a troop did volunteer work during our school events.
-I have always been good at sports. I like playing volley ball, basket ball and
-running. I have played in few sports tournaments (volleyball, races) together
-with my team.
+I have a multifaceted interest in electronics, robotics, physics, bicycle trekking, music, drawing, and pet-keeping. In my school days, I was an active member of the Scouts, where our troop engaged in volunteer work during school events. My penchant for sports has always been evident, with a particular fondness for volleyball, basketball, and running, even participating in numerous sports tournaments with my team.
 
-Computers first appered in my life when I was seven, we used M$-DOS
-[Logo] (https://en.wikipedia.org/wiki/Logo_(programming_language)#Turtle_and_graphics)
-programming language. It was interesting playing around with the commands and
-making some crazy shapes. I remember M$-DOS OS loaded via floppy disk by our
-instructor. I also used to observe the technical support team from intel used to
-come for installing the mother boards for new PCs in our labs, there seeded my
-interest in electronics, I was curious since that time on understanding them.
-Later during our school days I did few small projects and demonstrated at state
-level science fairs. My father helped me very much in understanding the working
-principles of a DC motor etc.
+Computers entered my life at the age of seven, initially navigating through the M$-DOS Logo programming language. Playing with commands and generating various shapes was fascinating. Observing the M$-DOS OS being loaded via floppy disk by our instructor and watching Intel's technical support team install motherboards in our labs piqued my interest in electronics. This curiosity extended throughout my school days, embarking on small projects and presenting them at state-level science fairs, with my father guiding me through the intricacies of components like DC motors.
 
-I had got my first computer during my college as a token of my efforts of maintaing
-(s/w installations and n/w tools) at a small internet cafe near our College. It
-was an old Intel Pentium II processor with 128MB RAM with a 14" CRT monitor and
-PS3 Key board and actual ball mouse. It was the first time I tried Linux OS(Ubuntu),
-during initial days of ubutnu release users can register for Ubuntu installer CDs,
-my brother helped me to get and I installed on my PC, played around package manager,
-browser and command line and scritps. This is the time I fell in love with Linux
-and since then I used M$ only to play games, (only until [Steam](http://store.steampowered.com/about/)) ;)
+I acquired my first computer, an Intel Pentium II processor with 128MB RAM, a 14” CRT monitor, a PS3 Keyboard, and a ball mouse, as a token of appreciation for maintaining software installations and network tools at a local internet café during college. It was with this computer that I explored the Linux OS (Ubuntu), immersing myself in the package manager, browser, command line, and scripts. This foray amplified my love for Linux, which eventually became my OS of choice, restricting my use of M$ to gaming (until Steam came along).
 
-While doing mini projects I got my first laptop, and started my hands-on with C programming language in Keil for 8051 MCUs. I did my first mini project interfacing a RC module and controlling a two wheeled robot remotely. My main project is automated pick and place bot which uses a RGB color sensor which scans and picks objects with particular colors. After this we went to some workshops at NITK Mangalore where we got introduced to AVR platform with a robot kit which does line following, obstacle avoiding and UART based motor control etc.
+During my mini-projects, I utilized my first laptop and began exploring the C programming language in Keil for 8051 MCUs. My first mini-project involved interfacing an RC module and remotely controlling a two-wheeled robot. Following this, my main project was an automated pick-and-place bot that utilized an RGB color sensor to identify, pick, and place objects based on color. We also attended workshops at NITK Mangalore, where we were introduced to the AVR platform and a robot kit that featured line following, obstacle avoidance, and UART-based motor control.
 
-This trigged my interest into Embedded systems and later I did a Embedded Systems
-Design at CDAC, where we got introduced with latest technologies and learned Linux
-device drivers and Linux System programming.
+This fuelled my interest in Embedded Systems, prompting me to undertake a course in Embedded Systems Design at CDAC, where I was introduced to the latest technologies and learned about Linux device drivers and Linux System programming.
 
-Later I got an opportunity as Trainee Enginner at [Toradex](https://www.toradex.com),
-where I'm currently working as Embedded Linux Develoment Engineer since 2013.
+My professional journey began at Toradex, where I worked until 2018. Afterward, I joined Rapyuta Robotics in Bangalore, spending a year there before relocating to Rapyuta Robotics in Tokyo. Currently, I am employed as a Senior Embedded Systems Engineer, contributing to various innovative projects and enhancing my expertise in the domain.
 
 I work on Linux Kernel/BSP Development for [Toradex Apalis/Colibri](https://www.toradex.com/products) [Computer on Modules](https://www.toradex.com/computer-on-modules).
 Did some upstream contributions too in
@@ -48,7 +24,7 @@ Did some upstream contributions too in
 
 ##### Skills
 
-Basic Knowledge:        ROS, mqtt, BuildRoot, OpenWRT, mySQL, KiCAD, Eagle
+Basic Knowledge:        ROS, MQTT, BuildRoot, OpenWRT, KiCAD
 
 Intermediate Knowledge: Device Trees, U-Boot, C++, FreeRTOS, Open Embedded aka Yocto, Git, Qt, GTK+, Python, MicroPython
 
